@@ -172,57 +172,65 @@
         margin-top: 36px; }
         .header__desktop__top__logo img {
           width: 100%; }
-      .header__desktop__top__contact h1 {
+      .header__desktop__top__contact {
         width: 100%;
-        font-size: 19px;
-        color: #FFCB00;
-        letter-spacing: normal;
-        line-height: normal;
-        font-weight: bold; }
-      .header__desktop__top__contact__form {
-        width: 100%;
-        padding-top: 30px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr); }
-        .header__desktop__top__contact__form__item {
-          display: flex;
-          flex-direction: column; }
-          .header__desktop__top__contact__form__item p {
-            color: #FFFFFF;
-            font-size: 14px;
-            padding-bottom: 10px; }
-          .header__desktop__top__contact__form__item__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        .header__desktop__top__contact h1 {
+          width: 100%;
+          font-size: 19px;
+          color: #FFCB00;
+          letter-spacing: normal;
+          line-height: normal;
+          font-weight: bold; }
+        .header__desktop__top__contact__form {
+          width: 100%;
+          padding-top: 30px;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr); }
+          .header__desktop__top__contact__form__item {
             display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #FFFFFF;
-            font-size: 22px;
-            text-decoration: underline; }
-            .header__desktop__top__contact__form__item__text__icon {
-              width: 16px; }
-              .header__desktop__top__contact__form__item__text__icon svg {
-                width: 100%; }
-        .header__desktop__top__contact__form__item_line {
-          display: flex;
-          flex-direction: column;
-          border-left: 1px solid #FFCB00;
-          border-right: 1px solid #FFCB00;
-          padding: 0 20px; }
-          .header__desktop__top__contact__form__item_line p {
-            color: #FFFFFF;
-            font-size: 14px;
-            padding-bottom: 10px; }
-          .header__desktop__top__contact__form__item_line__text {
+            flex-direction: column; }
+            .header__desktop__top__contact__form__item p {
+              color: #FFFFFF;
+              font-size: 14px;
+              padding-bottom: 10px; }
+            .header__desktop__top__contact__form__item__text {
+              display: flex;
+              align-items: center;
+              gap: 10px; }
+              .header__desktop__top__contact__form__item__text__icon {
+                width: 16px; }
+                .header__desktop__top__contact__form__item__text__icon svg {
+                  width: 100%; }
+              .header__desktop__top__contact__form__item__text__link {
+                color: #FFFFFF;
+                font-size: 14px;
+                text-decoration: underline; }
+                @media (min-width: 1700px) {
+                  .header__desktop__top__contact__form__item__text__link {
+                    font-size: 18px; } }
+          .header__desktop__top__contact__form__item_line {
             display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #FFFFFF;
-            font-size: 22px;
-            text-decoration: underline; }
-            .header__desktop__top__contact__form__item_line__text__icon {
-              width: 16px !important; }
-              .header__desktop__top__contact__form__item_line__text__icon svg {
-                width: 100%; }
+            flex-direction: column;
+            border-left: 1px solid #FFCB00;
+            border-right: 1px solid #FFCB00;
+            padding: 0 15px; }
+            .header__desktop__top__contact__form__item_line p {
+              color: #FFFFFF;
+              font-size: 14px;
+              padding-bottom: 10px; }
+            .header__desktop__top__contact__form__item_line__text {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              color: #FFFFFF; }
+              .header__desktop__top__contact__form__item_line__text__icon {
+                width: 16px !important; }
+                .header__desktop__top__contact__form__item_line__text__icon svg {
+                  width: 100%; }
     .header__desktop__medium {
       display: flex;
       justify-content: center;
@@ -266,9 +274,6 @@
             font-size: 28px; } }
       .header__desktop__bottom p.green {
         color: #0EE62F; }
-    .header__desktop .whtas {
-      flex-direction: column !important;
-      width: 143px; }
 
 .layout_whatsapp {
   display: flex;
@@ -386,9 +391,7 @@
       display: flex;
       align-items: center;
       gap: 20px;
-      color: #FFFFFF;
-      font-size: 15px;
-      text-decoration: underline; }
+      color: #FFFFFF; }
       @media (min-width: 1199px) {
         .footer__contact__phone__item {
           font-size: 16px;
@@ -397,6 +400,14 @@
         width: 25px; }
         .footer__contact__phone__item__icon svg {
           width: 100%; }
+      .footer__contact__phone__item__link {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; }
+        .footer__contact__phone__item__link a {
+          color: #FFFFFF;
+          font-size: 15px;
+          text-decoration: underline; }
   .footer__contact__email_location {
     width: 100%;
     margin: auto;

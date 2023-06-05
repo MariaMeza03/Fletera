@@ -178,6 +178,9 @@
 			}
 
 			&__contact{
+				width: 100%;
+				@include flex-center-center;
+				flex-direction: column;
 				
 				h1{
 					width: 100%;
@@ -207,9 +210,6 @@
 						&__text{
 							@include flex-a-center;
 							gap: 10px;
-							color: $white;
-							font-size:22px;
-							text-decoration: underline;
 
 							&__icon{
 								width: 16px;
@@ -218,6 +218,16 @@
 									width: 100%;
 								}
 			
+							}
+
+							&__link{
+								color: $white;
+								font-size:14px;
+								text-decoration: underline;
+
+								@media(min-width: 1700px){
+									font-size:18px;
+								}
 							}
 						}
 					
@@ -229,7 +239,7 @@
 						flex-direction: column;
 						border-left: 1px solid $mikado_yellow;
 						border-right:1px solid $mikado_yellow ;
-						padding: 0 20px;
+						padding: 0 15px;
 
 						p{
 							color: $white;
@@ -242,9 +252,7 @@
 							@include flex-a-center;
 							gap: 10px;
 							color: $white;
-							font-size:22px;
-							text-decoration: underline;
-
+						
 							&__icon{
 								width: 16px !important;
 
@@ -328,10 +336,6 @@
 
 		}
 
-		.whtas {
-			flex-direction: column !important;
-			width: 143px;
-		}
 
 	}
 
