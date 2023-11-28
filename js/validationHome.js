@@ -107,7 +107,7 @@ function Validation(e) {
     }
 
 
-    if(nombre.value !== "" && email.value.length !=="" && phone.value.length !== "" && direction.value.length !== "" && nombreCfe.value.length !== "" && numberCfe.value.length !== "" && mensaje.value.length !== ""){
+    if(nombre.value !== "" && mail.value.length !=="" && phone.value.length !== "" && direction.value.length !== "" && nombreCfe.value.length !== "" && numberCfe.value.length !== "" && mensaje.value.length !== ""){
 
         let datos = new FormData(form);
 
@@ -122,7 +122,7 @@ function Validation(e) {
             
         }).catch(error => console.log('error' , error));
 
-        location.replace('./thanks.html');
+        location.replace('./gracias.html');
 
     }  
 }

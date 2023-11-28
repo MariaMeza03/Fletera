@@ -868,6 +868,49 @@
   background-color: transparent;
   /* or add it to the track */ }
 
+.thanks {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/NUESTROS SERVICIOS.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .thanks .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .thanks__text {
+    background-image: url("../img/Rectangle 64.webp");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 30px 70px; }
+    .thanks__text h2 {
+      color: #FFCB00;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold; }
+      @media (min-width: 768px) {
+        .thanks__text h2 {
+          font-size: 35px; } }
+      @media (min-width: 1700px) {
+        .thanks__text h2 {
+          font-size: 40px; } }
+    .thanks__text p {
+      padding-top: 15px;
+      color: #FFFFFF;
+      font-size: 25px;
+      text-align: center; }
+      @media (min-width: 1199px) {
+        .thanks__text p {
+          font-size: 28px;
+          padding-top: 20px; } }
+
 .service_home {
   width: 100%;
   height: auto;
