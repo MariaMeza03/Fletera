@@ -367,6 +367,16 @@
     @media (min-width: 1700px) {
       .footer__form h1 {
         font-size: 35px; } }
+  .footer__form p.subtitle {
+    color: #FFCB00;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8em;
+    letter-spacing: 0em; }
+    @media (min-width: 1199px) {
+      .footer__form p.subtitle {
+        font-size: 28px; } }
   .footer__form__form {
     width: 100%;
     padding-top: 30px; }

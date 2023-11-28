@@ -107,7 +107,7 @@ function Validation3(e) {
     }
 
 
-    if(nombre3.value !== "" && mail3.value.length !=="" && phone3.value.length !== "" && direction3.value.length !== "" && nombreCfe3.value.length !== "" && numberCfe3.value.length !== "" && mensaje3.value.length !== ""){
+    if(nombre3.value !== "" && mail3.value !=="" && phone3.value !== "" && direction3.value !== "" && nombreCfe3.value !== "" && numberCfe3.value !== "" && mensaje3.value !== ""){
 
         let datos3 = new FormData(form3);
 

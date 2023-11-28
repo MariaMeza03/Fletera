@@ -28,6 +28,21 @@
 				font-size: 35px;
 			}
 		}
+
+		p.subtitle{
+			color: #FFCB00;
+			font-size: 18px;
+			text-align: center;
+			font-weight: bold;
+			line-height: 1.8em;
+			letter-spacing: 0em;
+			
+			@media(min-width:1199px){
+				font-size: 28px;
+			}
+			
+
+		}
 	
 		&__form{
 			width: 100%;

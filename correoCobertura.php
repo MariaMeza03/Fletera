@@ -1,7 +1,7 @@
 <?php   		
                 var_dump($_POST);
 				//Destinatario
-				$mail_destinatario = 'mmeza@licorne.mx';
+				$mail_destinatario = 'betoarg6@gmail.com';
 				$subject = 'Solicitud Formulario Fletera Fraustro';
 				$headers .= "From: ".$_POST['email']. "\r\n";
                 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
