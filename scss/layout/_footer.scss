@@ -10,6 +10,475 @@
 		
 	}
 
+	&__form{
+		h1{
+			color: $mikado_yellow;
+			font-size: 20px;
+			text-align: center;
+			
+			@media(min-width:768px){
+				font-size: 25px;
+			}
+	
+			@media(min-width:1199px){
+				font-size: 30px;
+			}
+			
+			@media(min-width:1700px){
+				font-size: 35px;
+			}
+		}
+	
+		&__form{
+			width: 100%;
+			padding-top: 30px;
+	
+			&__grid{
+				display: grid;
+				grid-template-columns: repeat(1, 1fr);
+		
+				@media(min-width:1199px){
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 30px;
+				}
+				
+	
+				&__input_name{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_email{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_phone{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_company{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_to{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_from{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						input{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+
+				&__input_coments{
+					@media(min-width:1199px){
+						padding:7.5px 0;
+					}
+	
+					label{
+						color: $white;
+						font-size: 15px;
+			
+						@media(min-width: 1199px){
+							font-size: 18px;
+						}
+					}
+		
+					input{
+						width: 100%;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin: 10px 0;
+					}
+					
+					textarea{
+						height: 200px;
+						padding: 15px;
+						background-color: $white;
+						border: none;
+						border-radius: 10px;
+						margin-top: 10px;
+					}
+	
+					&--active{
+						textarea{
+							border: 1px solid red;
+							margin-bottom: 0;
+						}
+						
+					}
+	
+					&__error{
+						width: 100%;
+						max-width: 471px;
+						display: none;
+						justify-content: flex-start;
+						padding: 5px 0;
+						text-align: start;
+						font-size: 12px;                      
+						color: red;
+				
+						&--active{
+							display: flex;
+							
+							
+						}
+					}
+				}
+				
+	
+				&__button{
+					width: 100%;
+
+					button{
+						width: 100%;
+						margin-top: 30px;
+						background-color: #FFCB00;
+						padding: 14px 50px;
+						color: black;
+						font-size: 20px;
+						font-weight: bold;
+						border-radius: 12px;
+						@include flex-center-center;
+						flex-direction: column;
+					
+							&:hover{ 
+								background-color: $white;
+								border:1px solid black;
+							}
+					}
+					
+			
+				}
+		
+				
+			}
+		}
+	}
 
 	&__contact{
 	
